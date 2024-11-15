@@ -1,0 +1,16 @@
+project_root/
+├── data/               # Raw and processed data
+│   ├── raw/           # Original, immutable data
+│   └── processed/     # Cleaned, transformed data
+├── notebooks/         # Jupyter notebooks (numbered for order)
+│   ├── 01_data_cleaning.ipynb
+│   ├── 02_eda.ipynb
+│   └── 03_modeling.ipynb
+├── src/               # Reusable source code/modules
+│   └── utils.py
+├── results/           # Figures, tables, exported results
+│   ├── figures/
+│   └── tables/
+├── docs/              # Documentation
+├── requirements.txt   # Project dependencies
+└── README.md         # Project overview
